@@ -7,10 +7,10 @@ import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
   styleUrls: ['./myform.component.css']
 })
 export class MyformComponent implements OnInit {
- //enterQuotes=new Quotes("" ,"" , "",new Date());
+ enterQuotes=new Quotes("" ,"" , "",new Date());
   @Output() addQuotes=new EventEmitter <Quotes>();
   onSubmit(){
-  //this.addQuotes.emit(this.enterQuotes);
+  this.addQuotes.emit(this.enterQuotes);
   //this.addQuotes.emit(this.newQuotes);
   }
   constructor() { }
