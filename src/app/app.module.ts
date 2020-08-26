@@ -4,19 +4,21 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { QuotesComponent } from './quotes/quotes.component';
-import { MyformComponent } from './myform/myform.component';
-import { VoteComponent } from './vote/vote.component';
+import { QuoteDetailsComponent } from './quote-details/quote-details.component';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { QuoteComponent } from './quote/quote.component';
+import { VoteComponent } from './vote/vote.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuotesComponent,
-    MyformComponent,
-    VoteComponent,
+    QuoteDetailsComponent,
+    QuoteFormComponent,
     QuoteComponent,
+    VoteComponent,
+   
     
   ],
   imports: [
